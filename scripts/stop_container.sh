@@ -1,7 +1,5 @@
 #!/bin/bash
 set -e
-
-
 # Fetch the latest container ID
 container_id=$(docker ps -ql)
 
